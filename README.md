@@ -1,6 +1,6 @@
 # kyiv-streets
 
-It's dataset with all kyiv streets (on 25.11.2020).
+It's dataset with all kyiv streets (on 25.10.2020).
 
 # Description
 
@@ -177,4 +177,4 @@ For example if a street is placed in Solomyanskyi and Shevchenkivskyi. Than it's
 
 # Sources
 
-Based on [Реєстр вулиць Києва станом на 25.11.2020](https://drive.google.com/file/d/1czIizXXNxxL2Kt3rzRdUniiNP6G3H5en/view)
+Based on [Реєстр вулиць Києва станом на 25.10.2020](https://drive.google.com/file/d/1czIizXXNxxL2Kt3rzRdUniiNP6G3H5en/view)
