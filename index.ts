@@ -8,6 +8,6 @@ export * from "./namingDocumentTitleDataSet";
 export * from "./oldFullTitleDataSet";
 export * from "./oldTypeDataSet";
 export * from "./placeDescriptionDataSet";
-export * from "./streetsDataSet";
+export * from "./streetDataSet";
 export * from "./typeDataSet";
 export * from "./uniqDigitalCodes";
