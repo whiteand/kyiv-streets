@@ -35,7 +35,9 @@ export enum Type {
   Maidan = 13,
 }
 
-export type StreetDataSet<T> = readonly T[] & { length: 2843 };
+export type StreetDataSet<T> = readonly T[] & {
+  length: 2843;
+};
 
 export interface IStreet {
   districtsFlags: number;
@@ -46,6 +48,6 @@ export interface IStreet {
   namingDocumentNumber: string | null;
   namingDocumentTitle: string | null;
   oldFullTitle: string | null;
-  oldType: string | number;
+  oldType: number | null;
   placeDescription: string | null;
 }

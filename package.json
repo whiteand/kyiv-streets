@@ -1,0 +1,35 @@
+{
+  "devDependencies": {
+    "typescript": "^4.0.5"
+  },
+  "name": "kyiv-streets",
+  "description": "It's dataset with all kyiv streets (on 25.11.2020).",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "dependencies": {},
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whiteand/kyiv-streets.git"
+  },
+  "keywords": [
+    "kyiv",
+    "streets",
+    "улицы",
+    "Киев",
+    "вулиці",
+    "КиЇв"
+  ],
+  "author": "Andrew Beletskiy <AndrewBeletskiy@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whiteand/kyiv-streets/issues"
+  },
+  "homepage": "https://github.com/whiteand/kyiv-streets#readme"
+}

@@ -10,8 +10,8 @@ import { oldFullTitleDataSet } from "./oldFullTitleDataSet";
 import { oldTypeDataSet } from "./oldTypeDataSet";
 import { placeDescriptionDataSet } from "./placeDescriptionDataSet";
 
-export const street: StreetDataSet<IStreet> = fullTitleDataSet.map(
-  (fullTitle, ind): IStreet => ({
+export const streetDataSet: StreetDataSet<IStreet> = fullTitleDataSet.map<IStreet>(
+  (fullTitle, ind) => ({
     namingDate: namingDateDataSet[ind],
     districtsFlags: districtsFlagsDataSet[ind],
     fullTitle: fullTitle,
