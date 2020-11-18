@@ -174,3 +174,7 @@ enum DistrictFlag {
 If street is placed in several districts it's `districtsFlags` field equal to bitwise OR of all `DistrictFlag` of the districts.
 
 For example if a street is placed in Solomyanskyi and Shevchenkivskyi. Than it's `districtsFlags` will be equal `DistrictFlag.Solomyanskyi | DistrictFlag.Shevchenkivskyi`
+
+# Sources
+
+Based on [Реєстр вулиць Києва станом на 25.11.2020](https://drive.google.com/file/d/1czIizXXNxxL2Kt3rzRdUniiNP6G3H5en/view)
