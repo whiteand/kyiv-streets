@@ -28,7 +28,7 @@ interface IStreet {
   districtsFlags: number;
   fullTitle: string;
   type: number;
-  namingDate: string | null; // In format mm/dd/YYYY
+  namingDate: string | null; // seems that dates are has format mm/dd/YYYY
   namingDocument: string | null;
   namingDocumentNumber: string | null;
   namingDocumentTitle: string | null;
