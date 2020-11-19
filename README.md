@@ -9,6 +9,7 @@ We have separated datasets (arrays with 2843 elements). These are [parallel arra
 ```typescript
 export const districtsFlagsDataSet: StreetDataSet<number>;
 export const fullTitleDataSet: StreetDataSet<string>;
+export const uniqueDigitalCodeDataSet: StreetDataSet<number>;
 export const namingDateDataSet: StreetDataSet<string | null>;
 export const namingDocumentDataSet: StreetDataSet<string | null>;
 export const namingDocumentNumberDataSet: StreetDataSet<string | null>;
@@ -28,6 +29,7 @@ interface IStreet {
   districtsFlags: number;
   fullTitle: string;
   type: number;
+  uniqueDigitalCode: number;
   namingDate: string | null; // seems that dates are has format mm/dd/YYYY
   namingDocument: string | null;
   namingDocumentNumber: string | null;

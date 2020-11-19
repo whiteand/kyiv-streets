@@ -3,7 +3,7 @@
     "typescript": "^4.0.5"
   },
   "name": "kyiv-streets",
-  "description": "It's dataset with all kyiv streets (on 25.11.2020).",
+  "description": "It's dataset with all kyiv streets (on 25.10.2020).",
   "version": "1.0.2",
   "main": "dist/index.js",
   "dependencies": {},

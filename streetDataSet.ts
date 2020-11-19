@@ -9,10 +9,12 @@ import { namingDocumentTitleDataSet } from "./namingDocumentTitleDataSet";
 import { oldFullTitleDataSet } from "./oldFullTitleDataSet";
 import { oldTypeDataSet } from "./oldTypeDataSet";
 import { placeDescriptionDataSet } from "./placeDescriptionDataSet";
+import { uniqueDigitalCodeDataSet } from "./uniqueDigitalCodeDataSet";
 
 export const streetDataSet: StreetDataSet<IStreet> = fullTitleDataSet.map<
   IStreet
 >((fullTitle, ind) => ({
+  uniqueDigitalCode: uniqueDigitalCodeDataSet[ind],
   fullTitle,
   districtsFlags: districtsFlagsDataSet[ind],
   type: typeDataSet[ind],
